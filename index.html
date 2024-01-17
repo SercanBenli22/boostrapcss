@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-body- fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Volvo Sverige</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OUR OFFERING</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trucks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Energy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Financial</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                CAREERS
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Volvo Group</a></li>
+                <li><a class="dropdown-item" href="#">Volvo Cars</a></li>
+                <li><a class="dropdown-item" href="#">World of Volvo</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Defense</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/22.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>ADE FOR PEOPLE
+            BY PEOPLE</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div>
+    <p class="text-uppercase pt-3 text-center fs-1">EXPLORE VOLVO</p>
+    <p class="text-capitalize text-center fs-4">For customers around the world</p>
+    <div class="images p-5 text-center  ">
+      <img
+        src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/Volvo-EX90-carousel-960x1178?qlt=82&wid=512&ts=1670318698149&dpr=off&fit=constrain"
+        class="img-thumbnail w-25 h-100 p-1" alt="...">
+      <img
+        src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/carousel-trucks?qlt=82&wid=512&ts=1663246594992&dpr=off&fit=constrain"
+        class="img-thumbnail w-25 h-100" alt="...">
+      <img
+        src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/carousel-bus-night-?qlt=82&wid=512&ts=1624535770702&dpr=off&fit=constrain"
+        class="img-thumbnail w-25 h-100" alt="...">
+    </div>
+
+    <div class="model">
+      <h4 style="text-align: center;">Våra modeller</h4>
+      <div class="model1">
+        <a href="#">Alla</a>
+        <a href="#">SUV</a>
+        <a href="#">Crossover</a>
+        <a href="#">Kombi</a>
+        <a href="">Sedan</a>
+      </div>
+      <div class="cars">
+        <div class="img">
+          <h3>SUV EX 30 elbil</h3>
+          <p> Prenumerera Från 6.790kr/mån</p>
+          <img src="images/bg.png" alt="" title="">
+        </div>
+        <div class="img">
+          <h3>XC40 Recharge elbil</h3>
+          <p> Prenumerera Från 6.790kr/mån</p>
+          <img
+            src="https://www.volvocars.com/images/v/-/media/applications/pdpspecificationpage/my24/xc40-electric/pdp/xc40-bev-gallery-1-21x9.jpg?iar=0&w=1600"
+            alt="" title="">
+        </div>
+        <div class="img">
+          <h3>XC 90 Recharge elbil</h3>
+          <p> Prenumerera Från 6.790kr/mån</p>
+          <img
+            src="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/bltead5995e424e7973/6576d0aa0bf020000d90c96b/tim00973_ex30_desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1080&imdensity=1"
+            alt="" title="">
+
+        </div>
+        <div class="img">
+          <h3>SUV EX 30 elbil</h3>
+          <p> Prenumerera Från 6.790kr/mån</p>
+          <img src="images/bg.png" alt="" title="">
+        </div>
+      </div>
+      <div class="volvo2">
+        <img
+          src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/Banner_volvo.com_wow?qlt=82&wid=1440&ts=1669043999689&dpr=off&fit=constrain"
+          alt="">
+      </div>
+
+      <div class="career">
+        <h1>Career</h1>
+        <h4>For every person who wants to make real difference</h4>
+        <button type="button  " class="btn btn-primary w-25 ">Join Volvo Group</button>
+        <button type="button " class="btn btn-primary w-25">Join Volvo Cars</button>
+        <img
+          src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/join-us-banner?qlt=82&wid=768&ts=1624538498965&dpr=off&fit=constrain"
+          alt="">
+
+      </div>
+      <div class="collections">
+        <h1>LIFESTYLE COLLECTIONS</h1>
+        <h4>Designed and distributed with care</h4>
+        <button type="button  " class="btn btn-primary w-25 ">Volvo Group shop</button>
+        <button type="button " class="btn btn-primary w-25">Volvo Cars shop</button>
+        <img
+          src="https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/lifestyle?qlt=82&wid=768&ts=1629721303777&dpr=off&fit=constrain"
+          alt="">
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+
+    <ul>
+      <p>VOLVO GROUP</p>
+      <li>About Volvo Group</li>
+      <li>Future of transportation</li>
+      <li>Career</li>
+      <li>News & media</li>
+      <li>Contact us</li>
+    </ul>
+
+    <ul>
+      <p>VOLVO CARS</p>
+      <li>About Volvo Group</li>
+      <li>Future of transportation</li>
+      <li>Career</li>
+      <li>News & media</li>
+      <li>Contact us</li>
+    </ul>
+    <p class="volvofoot">&copy; 2024 Volvo Sverige. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
